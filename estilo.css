@@ -1,34 +1,17 @@
 table {
   text-align: center;
+  font-family: Calibri;
 }
-
-#celula1 {
+th {
  width: 50px;
  padding:10px;
  _width: 255px;
+ background-color: #c81e1e;
+ color: #fff
  }
- #celula2 {
- width: 50px;
- padding:10px;
- _width: 255px;
- }
- #celula3 {
- width: 50px;
- padding:10px;
- _width: 255px;
- }
- #celula4 {
- width: 50px;
- padding:10px;
- _width: 255px;
- }
- #celula5 {
- width: 50px;
- padding:10px;
- _width: 255px;
- }
- #celula6 {
- width: 50px;
- padding:10px;
- _width: 255px;
+ tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+ tr:nth-child(even){
+   background-color: #c2c2c2;
  }
